@@ -6,6 +6,39 @@ This guide is still a work in progress!
 
 :::
 
+(Insert objectives intro here)
+
+## Objectives Display
+(Talk about how objectives show up in game)
+
+## Objectives File Structure
+```
+objectives/
+│   └── example_objective/
+│       ├── objective.json
+│       ├── description.md
+│       ├── walkthrough.md
+│       └── validator.js
+```
+## Objective Components
+
+### Metadata
+
+### Description
+
+#### Dynamically change walkthrough based on world state
+
+### Walkthrough
+
+(Deprecated?)
+
+### Validation
+
+#### Fail Fast
+
+#### Helper Function
+(Document how the helper object lets you grab the answers)
+
 ## Examples
 
 This is a validator that uses an asynchronous network request to check if a user entered a valid GitHub username in an objective.
